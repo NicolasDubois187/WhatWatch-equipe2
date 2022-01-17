@@ -1,0 +1,66 @@
+#movieContainer {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#movieContainer > div {
+  flex: 1 0 20%;
+  min-width: 280px;
+  max-width: 450px;
+  height: 1200px;
+  background: lightblue;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px 20px 200px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.233);
+  position: relative;
+}
+h1 {
+  margin: 6px auto;
+  color:whitesmoke;
+}
+
+h3 { 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  font-weight: 700;
+
+}
+h4 {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  font-weight: 500;
+}
+em { 
+  padding-top: 30px;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  font-weight: 700;
+}
+p {
+  padding-top:10px;
+  padding-bottom: 10px;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+  padding: 30px;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 30px;
+  object-fit: cover;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.233);
+  border: 2px solid blue;
+}
+li {
+  text-align: left;
+}
