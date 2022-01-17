@@ -1,1 +1,40 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#form {
+  margin: 20px;
+  position: fixed;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: rgba(233, 189, 107, 0.719);
+  padding: 15px 50px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 1px 10px black;
+          box-shadow: 0 1px 10px black;
+  z-index: 1000;
+}
+
+#form #searchInput {
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgba(238, 234, 226, 0.719);
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#form #searchInput:hover {
+  border: 1px solid red;
+}
+/*# sourceMappingURL=style.css.map */

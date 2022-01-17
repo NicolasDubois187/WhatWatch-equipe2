@@ -28,7 +28,7 @@ function moviesDisplay() {
         <div class="card">
         <h1>${movie.title}</h1>
         <h3>${dateFormater(movie.release_date)}</h3>
-        <img src=${movie.poster_path} alt="affiche de ${movie.title}"></img>
+        <img src="https://image.tmdb.org/t/p/w200${movie.poster_path}" alt="affiche de ${movie.title}"></img>
         <p>${movie.overview}</p>
         <h4>Note ${movie.vote_average}</h4>
         </div>

@@ -1,0 +1,25 @@
+    #form {
+    margin: 20px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(233, 189, 107, 0.719);
+    padding: 15px 50px;
+    border-radius: 30px;
+    box-shadow: 0 1px 10px black;
+    z-index: 1000;
+
+    #searchInput {
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 5px;
+        background-color:rgba(238, 234, 226, 0.719);
+        cursor: pointer;
+        transition: 0.2s;
+
+        &:hover {
+            border: 1px solid red;
+        }
+      
+    }
+}
