@@ -67,11 +67,13 @@ function moviesDisplay(param) {
 		} alt="affiche de ${movie.title}" width="200px"></img>
         <h2>${movie.title}</h2>
         <h3>${dateFormater(movie.release_date)}</h3>
+
         <h4>Note : ${movie.vote_average} ${
 				movie.vote_average > 6.5 ? "🔥" : "💧"
 			}</h4>
         <p></p>
         <p>Description : ${movie.overview}</p>
+
         </div>
         `
 		)
