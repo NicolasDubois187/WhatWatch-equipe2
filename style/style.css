@@ -10,14 +10,17 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#title {
+  text-align: center;
+  margin: 20px auto;
+}
+
 #form {
-  margin: 20px;
-  position: fixed;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  text-align: center;
   background: rgba(233, 189, 107, 0.719);
-  padding: 15px 50px;
+  padding: 15px 20px;
+  max-width: 40%;
+  margin: 0 auto;
   border-radius: 30px;
   -webkit-box-shadow: 0 1px 10px black;
           box-shadow: 0 1px 10px black;
@@ -36,5 +39,21 @@ body {
 
 #form #searchInput:hover {
   border: 1px solid red;
+}
+
+#buttons {
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+#buttons button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background: rgba(248, 16, 16, 0.63);
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
