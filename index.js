@@ -26,11 +26,13 @@ function moviesDisplay() {
     .map(
         (movie) => `
         <div class="card">
-        <h1>${movie.title}</h1>
-        <h3>${dateFormater(movie.release_date)}</h3>
+     
         <img src="https://image.tmdb.org/t/p/w200${movie.poster_path}" alt="affiche de ${movie.title}"></img>
-        <p>${movie.overview}</p>
+        <h1>${movie.title}</h1>
+        <h3>${dateFormater(movie.release_date)}</h3>     
         <h4>Note ${movie.vote_average}</h4>
+        <em> Synopsis </em>
+        <p>${movie.overview}</p>
         </div>
         `
     )
